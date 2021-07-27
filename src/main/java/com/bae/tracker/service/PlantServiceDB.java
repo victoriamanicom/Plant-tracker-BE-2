@@ -30,4 +30,10 @@ public class PlantServiceDB implements PlantService {
 		return null;
 	}
 
+	@Override
+	public Plant getByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
