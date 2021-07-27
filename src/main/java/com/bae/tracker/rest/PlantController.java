@@ -47,9 +47,4 @@ public class PlantController {
 		return new ResponseEntity<String>(body, HttpStatus.NO_CONTENT);
 
 	}
-
-	@GetMapping("/getByName/{name}")
-	public Plant getByName(@PathVariable String name) {
-		return this.service.getByName(name);
-	}
 }

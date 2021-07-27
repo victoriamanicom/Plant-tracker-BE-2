@@ -39,10 +39,4 @@ public class PlantServiceList implements PlantService {
 		return "Plant deleted: " + id;
 	}
 
-	@Override
-	public Plant getByName(String name) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
