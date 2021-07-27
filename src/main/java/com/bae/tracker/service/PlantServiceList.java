@@ -3,8 +3,11 @@ package com.bae.tracker.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.bae.tracker.data.Plant;
 
+@Service
 public class PlantServiceList implements PlantService {
 	private List<Plant> plants = new ArrayList<>();
 
