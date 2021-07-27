@@ -18,4 +18,12 @@ public class PlantServiceList implements PlantService {
 		return plant;
 	}
 
+	@Override
+	public List<Plant> getPlants() {
+		for (Plant plant : plants) {
+			System.out.println(plant);
+		}
+		return this.plants;
+	}
+
 }
